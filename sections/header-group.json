@@ -11,16 +11,24 @@
             "text": "Nourish Your Skin",
             "link": ""
           }
+        },
+        "announcement_xxwBed": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_xxwBed"
       ],
       "settings": {
         "color_scheme": "scheme-4",
         "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
