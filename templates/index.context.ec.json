@@ -4,5 +4,17 @@
     "market": "ec"
   },
   "sections": {
+    "image_banner": {
+      "settings": {
+      },
+      "blocks": {
+        "heading": {
+          "settings": {
+            "heading": "DRY SKIN FACE CREAM",
+            "heading_size": "h2"
+          }
+        }
+      }
+    }
   }
 }
