@@ -6,6 +6,7 @@
   "sections": {
     "image_banner": {
       "settings": {
+        "desktop_content_position": "top-right"
       },
       "blocks": {
         "heading": {
