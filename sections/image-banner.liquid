@@ -2,35 +2,33 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }} 
 
 <div class="image-banner">
-<div class="product-section">
-  <div class="product-image">
-    <img src="{{ 'aloe-2.png' | asset_url }}" alt="Aloe Image">
-
+  <div class="product-section">
+    <div class="product-carousel">
+      <button class="prev-btn">&#10094;</button>
+      <div class="carousel-images">
+        <img src="{{ 'aloe-2.png' | asset_url }}"alt="Imagen 1" class="carousel-image">
+        <img src="{{ 'aloe-2.png' | asset_url }}" alt="Imagen 2" class="carousel-image">
+        <img src="{{ 'aloe-2.png' | asset_url }}" alt="Imagen 3" class="carousel-image">
+        <img src="{{ 'aloe-2.png' | asset_url }}" alt="Imagen 4" class="carousel-image">
+        </div>
+        <button class="next-btn">&#10095;</button>
+        </div>
+        <div class="product-image">
+          <img src="{{ 'aloe-2.png' | asset_url }}" alt="Aloe Image">
+        </div>
   </div>
-  <div class="product-carousel">
-    <button class="prev-btn">&#10094;</button>
-    <div class="carousel-images">
-      <img src="{{ 'aloe-2.png' | asset_url }}"alt="Imagen 1" class="carousel-image">
-      <img src="{{ 'aloe-2.png' | asset_url }}" alt="Imagen 2" class="carousel-image">
-      <img src="{{ 'aloe-2.png' | asset_url }}" alt="Imagen 3" class="carousel-image">
-      <img src="{{ 'aloe-2.png' | asset_url }}" alt="Imagen 4" class="carousel-image">
-    </div>
-    <button class="next-btn">&#10095;</button>
-  </div>
-  
-</div>
 
-<div class="product-details">
-  <h2>DRY SKIN FACE CREAM</h2>
-  <p>$15</p>
-  <p class="item-number">Item # 015</p>
-  <div class="reviews">
-    <a href="#">View Reviews (2)</a>
-    <a href="#">Write a Review</a>
-    <div class="rating">
+ <div class="product-details">
+   <h2>DRY SKIN FACE CREAM</h2>
+   <p>$15</p>
+   <p class="item-number">Item # 015</p>
+    <div class="reviews">
+      <a href="#">(2) Reviews</a>
+      <a href="#">Write a Review</a>
+     <div class="rating">
       <!-- Star rating code here -->
+     </div>
     </div>
-  </div>
   <p class="product-description">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam euismod magna ac eros facilisis, vel placerat elit lacinia.
   </p>
@@ -51,5 +49,5 @@
       <!-- WhatsApp contact code here -->
     </div>
   </div>
-</div>
+  </div>
 </div>
