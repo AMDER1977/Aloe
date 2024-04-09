@@ -1,7 +1,7 @@
 
 .image-banner{
   display: flex;
-  background-color: aliceblue;
+  background-color: white;
   
 }
 
@@ -59,7 +59,7 @@
 }
 
 .next-btn {
-  bottom: 20%;
+  bottom: 25%;
   left: 25%;
   transform: translate(-50%, 50%) rotate(90deg);
 }
@@ -89,9 +89,33 @@
 }
 
 .rating {
-  color: yellow;
-  /* Estilos para el sistema de puntuación con estrellas */
+  font-size: 24px; 
+  border: 1px solid #0e0d0d;
+  padding: 10px;
 }
+
+.star {
+  display: inline-block;
+  width: 20px; 
+  height: 20px; 
+  background-color: transparent; 
+  position: relative;
+}
+
+.star.filled::before {
+  content: "\2605"; 
+  color: yellow; 
+}
+
+.star.half-filled::before {
+  content: "\2605"; 
+  color: yellow; 
+  position: inherit;
+  overflow: hidden;
+   width: 50%;
+   transform: translateX(-50%); /*Ancho de la mitad superior de la estrella */
+}
+
 
 .product-description {
   font-size: 24px;
