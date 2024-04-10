@@ -81,6 +81,7 @@
 
 .reviews {
   margin-top: 10px;
+  font-size: 18px;
 }
 
 .rating {
@@ -119,24 +120,80 @@
 }
 
 .product-links a {
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 10px;
 }
 
-.add-to-cart {
-  margin-top: 20px;
-}
 
-.add-to-cart select {
-  background-color: yellow;/* Estilos para el selector de cantidad */
-}
 
-.add-to-cart .price {
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  width: auto;/**/ 
   margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
+.quantity-selector button {
+  width: 35px; 
+  height: 35px; 
+  background-color: #025E3D;
+  border: none;
+  cursor: pointer;
+  font-size: 22px;
+  margin: 0 5px;
+  color: #ffff;
+  border-radius: 50%; 
+}
+
+.quantity-display {
+  width: 50px; /* Ancho del cuadro de cantidad */
+  height: 30px; /* Alto del cuadro de cantidad */
+  background-color: #BFF2D8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #333;
+  border-radius: 14px;
+}
+
+
+.quantity-selector button:active {
+  background-color: #ccc;
+}
+
+
+.price {
+  background-color: #BFF2D8;
+  margin-left: 30px; 
+  padding: 5px 10px; 
+  font-size: 16px; 
+  font-weight: bolder;
+  color: #333; /
+    
+}
+.add-to-cart-button{
+  margin-top: 20px;
+  width: 400px;
+  height:40px;
+  background-color: #0e0d0d;
+  color: #fff;
+  font-size: medium;
+  border-radius: 8px;
+  display: inline-flex; /* Usar flexbox para alinear elementos en línea */
+  align-items: center; /* Alinear elementos verticalmente */
+}
+.add-to-cart-button:hover {
+  transform: scale(1.05); 
+}
 .whatsapp-contact {
-  background-color: rgb(15, 235, 81);
-  /* Estilos para el contacto de WhatsApp */
+  margin-left: 10px; /* Espacio entre el botón y el ícono de WhatsApp */
+}
+
+.fa-whatsapp {
+  font-size: 24px; /* Tamaño del ícono de WhatsApp */
+  color: rgb(15, 235, 81); /* Color del ícono de WhatsApp */
 }
 
