@@ -5,7 +5,28 @@
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
-      }
+      },
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bienvenido a nuestra tienda",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "label": "Add to Cart",
+            "link": "shopify://collections/all",
+            "secondary_style": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ]
     }
   },
   "order": [
