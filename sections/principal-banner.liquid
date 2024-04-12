@@ -1,26 +1,37 @@
 {% schema %}
 
-{
-    "name": "principal banner",
-    "presets":[
+    {
+      "name": "principal banner",
+      "presets": [
         {
-        "name": "principal banner"
+          "name": "principal banner"
         }
-    ],
-    "settings":[
+      ],
+      "settings": [
         {
-  "type": "image_picker",
-  "id": "image_product",
-  "label": "image product"
-},
-{
-  "type": "image_picker",
-  "id": "image_product_mobile",
-  "label": "image product mobile"
-}
-
-    ]
-
-
-}
+          "type": "image_picker",
+          "id": "image_product",
+          "label": "image product"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_product_mobile",
+          "label": "image product mobile"
+        },
+        { "id": "banner_heading",
+          "type": "text",          
+          "label": "Banner Heading"
+        },
+        {
+            "id": "banner_button",
+           "type" : "select", 
+         "label": "Banner Button",
+         "options": [
+        { "value": "add_to_cart", "label": "Add to Cart" }
+      ]
+        }
+      ]
+    }
+    
     {% endschema %}
+    
